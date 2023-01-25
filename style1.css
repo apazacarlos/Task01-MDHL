@@ -1,0 +1,44 @@
+header>h1{
+    height: 150px;
+    background-image: url("./archivos_task2/design1_image1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.botonHome{
+    text-decoration: none;
+    color:black;
+}
+
+.botonAbout{
+    text-decoration: none;
+    color:black;
+}
+
+.botonContact{
+    text-decoration: none;
+    color:black;
+}
+
+.logo{
+    width: 100px;
+    padding-inline-start: 600px;
+}
+
+h3{
+    font-style: italic;
+}
+
+h4{
+    font-size: x-large;
+}
+
+.email{
+    text-decoration-color: black;
+}
