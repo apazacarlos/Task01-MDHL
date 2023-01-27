@@ -1,0 +1,90 @@
+/*normalizacion*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    bottom: 110px;
+}
+
+article,section{
+    margin-bottom: 12px;
+}
+/*imagenes*/
+img{
+    width: 100px;
+}
+.logo1{
+    max-width: 100%;
+    display: inline-block;
+    position: relative;
+    left:20px;
+    top:5px
+}
+
+.banner{
+    background-image: url(./archivos_task2/design1_image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
+/* headings */
+
+h2{
+    border: 1px solid black;
+    text-align: center;
+}
+
+h4{
+    font-size:large;
+}
+
+.fechas{
+    font-style: italic;
+}
+
+/*Botones*/
+
+nav>a{
+    color:white;
+    margin: 2px;
+    padding: 1px 8px;
+    border: 1px solid black;
+    background-color:royalblue;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 320px;
+    bottom:292px;
+}
+
+.botonActivo{
+    color:white;
+    margin: 2px;
+    padding: 1px 8px;
+    border: 1px solid black;
+    background-color:green;
+    text-decoration: none;
+}
+
+
+/* extras */
+
+.email{
+    text-decoration-color: black;
+}
+
+p{
+    font-size: x-small;
+}
+p.sangria{
+    text-indent: 13px;
+}
+
+
