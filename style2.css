@@ -12,6 +12,13 @@ main{
     bottom: 110px;
 }
 
+body{
+    width: 650px;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 article,section{
     margin-bottom: 12px;
 }
@@ -60,7 +67,7 @@ nav>a{
     text-decoration: none;
     display: inline-block;
     position: relative;
-    left: 320px;
+    left: 380px;
     bottom:292px;
 }
 
