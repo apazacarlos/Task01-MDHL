@@ -43,6 +43,10 @@ article{
     background-color: white;
 }
 
+footer{
+    display: none;
+}
+
 /*HEADINGS*/
 
 h1{

@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+/* PARTES DEL DOC */
+
+main{
+    margin-left: 40px;
+    background-color:ghostwhite
+}
+
+footer{
+    width:100%;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 1px black;
+    color:darkorange;
+    text-align: center;
+    background-image: url(./archivos_task2/design1_image1.jpg);
+    height:100px;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid slateblue;
+    position:fixed;
+    top: 100%;
+    transform:translateY(-100%);
+
+}
+
+/* IMAGENES */
+.logo1{
+    width: 100px;
+    max-width: 100%;
+    position: fixed;
+    top: 100%;
+    transform: translateY(-100%);
+    z-index: 1;
+    left:30px;
+}
+
+.banner{
+    height: 150px;
+    max-width: 100%;
+    background-image: url(./archivos_task2/design1_image2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* HEADINGS */
+
+h1{
+    height: 50px;
+    text-align: center;
+    font-weight:bold;
+    font-size:40px;
+    color: gold;
+    background-color: black;
+    text-shadow: 1px 2px 1px whitesmoke;
+}
+
+h2{
+    text-align:left;
+    font-size: 40px;
+    border: 1px solid teal;
+    background-color: black;
+    color: gold;
+    height: 50px;
+    text-shadow: 1px 1px 1px white;
+    text-indent: 70px;
+}
+
+h4,h3{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/* BOTONES */
+.botonActivo{
+    background-color:goldenrod;
+}
+
+nav>a{
+    display: inline;
+    text-decoration: none;
+    padding: 4px 4px;
+    text-align: center;
+    background-color: teal;
+    color:black;
+    font-size: 20px;
+    position: relative;
+    left:750px;
+    bottom: 36px;
+    margin: 0px 10px;
+}
+
+/*textos*/
+p{
+    text-indent: 15px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.fechas{
+    font-size: 25px;
+}
+
+article{
+    margin: 40px
+}
+
+.about{
+    text-align: justify;
+    margin: 30px;
+}
+
+#textos{
+    margin-top: 20px;
+}
+
+.email{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+footer>p{
+    margin-top: 10px;
+}
+
+
+

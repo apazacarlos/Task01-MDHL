@@ -22,6 +22,10 @@ body{
 article,section{
     margin-bottom: 12px;
 }
+
+footer{
+    display: none;
+}
 /*imagenes*/
 img{
     width: 100px;
