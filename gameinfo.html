@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="style3.css">
 
-    <link rel="icon" href="./archivos/Logo-Mighty-ducks-01.png">
+    <link rel="icon" href="./img/Logo-Mighty-ducks-01.png">
     <title>Mighty Ducks Hockey League</title>
 </head>
 
@@ -19,10 +19,8 @@
         </div>
 
         <h2>Fall schedule</h2>
-        <img class="logo1" src="./archivos/Logo-Mighty-ducks-01.png" alt="Logo de la Mighty Ducks Hockey League"
-            width="200">
-
     </header>
+
     <nav>
         <a href="./index.html">Home</a>
         <a href="./about.html">About MDHL</a>
@@ -31,65 +29,93 @@
         <a href="./rules.html">Rules</a>
     </nav>
 
-    <main id="textos">
+    <main>
         <section>
-            <h4>* All games take place on Saturday</h4>
-
-            <ul><p>September</p>
-                <li>09/01</li>
-                <li>09/08</li>
-                <li>09/15</li>
-                <li>09/22</li>
-                <li>09/29</li>
-            </ul>
-            <ul><p>Teams</p>
-                <li>U1 and U4</li>
-                <li>U3 and U2</li>
-                <li>U5 and U6</li>
-                <li>U6 and U1</li>
-                <li>U2 and U4</li>
-                <li>U3 and U5</li>
-                <li>U1 and U3</li>
-                <li>U2 and U6</li>
-                <li>U4 and U5</li>
-            </ul>
-            <ul><p>Location</p>
-                <li>AJ Katzenmaier</li>
-                <li>Greenbay</li>
-                <li>Howard A Yeager</li>
-                <li>Marjorie P Hart</li>
-                <li>North</li>
-                <li>AJ Katzenmaier</li>
-                <li>South</li>
-                <li>Howard A Yeager</li>
-                <li>Greenbay</li>
-            </ul>
-            <ul><p>Times</p>
-                <li>9:30 a.m.</li>
-                <li>1:00 p.m.</li>
-                <li>9:30 a.m.</li>
-                <li>1:00 p.m.</li>
-                <li>9:30 a.m.</li>
-                <li>1:00 p.m.</li>
-                <li>9:30 a.m.</li>
-                <li>1:00 p.m.</li>
-                <li>9:30 a.m.</li>
-            </ul>
-
-            <p>Facility Type: Outdoor</p>
-            <p>Additional Information: If deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions.</p>
-            <p>Please direct all question to: Michael Randall, League Coordinator</p>
-            <p>Phone: (630) 690-8132</p>
-            <p>Email: michael.randall@chihockey.org</p>
+            <h5 class="titulo-fall">* All games take place on Saturday</h5>
+        <table>
+            <thead>
+                <tr>
+                    <th>September</th>
+                    <th>Teams</th>
+                    <th>Location</th>
+                    <th>Times</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td rowspan="2" class="date">9/01</td>
+                    <td>U1 and U4</td>
+                    <td>AJ Katzenmaier</td>
+                    <td>9:30 a.m.</td>
+                </tr>
+                <tr>
+                    <td>U3 and U2</td>
+                    <td>Greenbay</td>
+                    <td>1.00 a.m.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="date">9/08</td>
+                    <td>U5 and U6</td>
+                    <td>Howard A Yeager</td>
+                    <td>9:30 a.m.</td>
+                </tr>
+                <tr>
+                    <td>U6 and U1</td>
+                    <td>Marjorie P Hart</td>
+                    <td>1.00 a.m.</td>
+                </tr><tr>
+                    <td rowspan="2" class="date">9/15</td>
+                    <td>U2 and U4</td>
+                    <td>North</td>
+                    <td>9:30 a.m.</td>
+                </tr>
+                <tr>
+                    <td>U3 and U2</td>
+                    <td>AJ Katzenmaier</td>
+                    <td>1.00 a.m.</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="date">9/22</td>
+                    <td>U1 and U3</td>
+                    <td>South</td>
+                    <td>9:30 a.m.</td>
+                </tr>
+                <tr>
+                    <td>U2 and U6</td>
+                    <td>Howard A Yeager</td>
+                    <td>1.00 a.m.</td>
+                </tr>
+                <tr>
+                    <td class="date">9/29</td>
+                    <td>U4 and U5</td>
+                    <td>Greenbay</td>
+                    <td>9.30 a.m.</td>
+                </tr>
+            </tbody>
+        </table>
+                <aside class="caja-fall">
+                    <p><b>Facility Type:</b> Outdoor</p>
+                    <p><b>Additional Information:</b> If deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions.</p>
+                    <p><b>Please direct all question to:</b> Michael Randall, League Coordinator</p>
+                    <aside id="texto-linea">
+                        <div class="caja-phone"><p><b>Phone:</b> (630) 690-8132</p></div>
+                        <div class="caja-email"><p><b>Email:</b> michael.randall@chihockey.org</p></div>
+                    </aside>
+                </aside>
         </section>
 
     </main>
 
     <footer>
-        <p>Mighty Ducks Hockey League ®</p>
-        <p>All rights reserved</p>
-        <p>2023</p>
+        <img src="./img/Logo-Mighty-ducks-01.png" alt="Logo de la Mighty Ducks Hockey League">
+        <div class="copyright">
+            <p>Mighty Ducks Hockey League ®</p>
+            <p>All rights reserved</p>
+            <p>2023</p>
+        </div>
     </footer>
+    
 </body>
 
 </html>

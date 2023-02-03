@@ -2,50 +2,59 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
+    
 }
 
 /* PARTES DEL DOC */
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
 main{
-    margin-left: 40px;
-    background-color:ghostwhite
+    background-color:ghostwhite;
+    padding: 100px 100px;    
+    
 }
 
 footer{
+    
     width:100%;
     font-size: x-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 1px 1px 1px black;
+    text-align:center;
     color:darkorange;
-    text-align: center;
-    background-image: url(./archivos_task2/design1_image1.jpg);
-    height:100px;
+    background-image: url(./img/design1_image1.jpg);
+    height:150px;
     background-position: center;
     background-size: cover;
     border: 2px solid slateblue;
-    position:fixed;
-    top: 100%;
-    transform:translateY(-100%);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 
+}
+
+.copyright{
+    display: inline-block;
+    
 }
 
 /* IMAGENES */
-.logo1{
-    width: 100px;
+.banner{
+    height: 200px;
     max-width: 100%;
-    position: fixed;
-    top: 100%;
-    transform: translateY(-100%);
-    z-index: 1;
-    left:30px;
+    background-image: url(./img/design1_image2.jpg);
+    background-position:top;
+    background-size: cover;
 }
 
-.banner{
-    height: 150px;
-    max-width: 100%;
-    background-image: url(./archivos_task2/design1_image2.jpg);
-    background-position: center;
-    background-size: cover;
+img{
+    width: 150px;
 }
 
 /* HEADINGS */
@@ -54,26 +63,41 @@ h1{
     height: 50px;
     text-align: center;
     font-weight:bold;
-    font-size:40px;
+    font-size: 3.3rem;
     color: gold;
     background-color: black;
     text-shadow: 1px 2px 1px whitesmoke;
 }
 
 h2{
-    text-align:left;
-    font-size: 40px;
-    border: 1px solid teal;
+    text-align:center;
+    font-size: 3.1rem;
     background-color: black;
     color: gold;
     height: 50px;
     text-shadow: 1px 1px 1px white;
-    text-indent: 70px;
+    
 }
 
-h4,h3{
-    font-size: 25px;
+h4,h3,h5{
+    font-size: 2rem;
     text-decoration: underline;
+}
+
+.titulo-fall{
+    font-style: italic;
+    font-weight: 500;
+}
+
+h4.rules{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+h5.rules{
+    margin-top: 3%;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* BOTONES */
@@ -81,42 +105,48 @@ h4,h3{
     background-color:goldenrod;
 }
 
+nav{
+    display: block;
+    align-self: center;
+    background-color: teal;
+    padding: 5px 0;
+}
+
 nav>a{
-    display: inline;
     text-decoration: none;
-    padding: 4px 4px;
+    padding: 5px 30px;
     text-align: center;
     background-color: teal;
     color:black;
-    font-size: 20px;
-    position: relative;
-    left:550px;
-    bottom: 36px;
-    margin: 0px 10px;
+    font-size: 2rem;
 }
 
 /*textos*/
 p{
-    text-indent: 15px;
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 2rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.sangria{
+    text-indent: 2%;
 }
 
 .fechas{
-    font-size: 25px;
+    font-size: 3rem;
 }
 
 article{
-    margin: 40px
+    margin: 4%
 }
 
 .about{
     text-align: justify;
-    margin: 30px;
+    margin: 3%;
 }
 
 #textos{
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .email{
@@ -124,9 +154,63 @@ article{
     color: goldenrod;
 }
 
-footer>p{
-    margin-top: 10px;
+#texto-linea{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;    
 }
 
+.caja-fall>p{
+    text-indent: 0;
+    margin-bottom: 2%;
+}
 
+.caja-phone{
+    display:inline-block;
+    width: 250px;
+}
 
+.caja-email{
+    display: inline-block;
+    width: 400px;
+}
+
+.sports{
+    text-indent: 6%;
+    font-size: 1.7rem;
+    margin-bottom: 4%;
+}
+
+.caps{
+    text-transform: uppercase;
+}
+
+/*Tabla*/
+
+td,th{
+    font-size: 2rem;
+    text-align:start;
+}
+
+table{
+    width:90%;
+    border-spacing: 20px 10px;
+    margin: 10px
+}
+
+.date{
+    text-align: center;
+}
+
+/*Listas*/
+
+ol>li{
+    font-size: 1.6rem;
+    margin-bottom: 2%;
+}
+
+ul>li{
+    font-size: 1.6rem;
+    margin-left: 10%;
+}
