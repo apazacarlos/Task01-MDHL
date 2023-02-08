@@ -12,12 +12,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     margin: 0 10%;
+    background-color:ghostwhite;
 }
 
 main{
-    background-color:ghostwhite;
     padding: 100px 100px;    
-    
 }
 
 footer{
@@ -40,8 +39,18 @@ footer{
 }
 
 .copyright{
-    display: inline-block;
+    display: inline-block; 
+}
+#index{
+    display:flex;
+    justify-content: space-around;
+    align-content: space-between;
     
+}
+
+.index-main{
+    display: inline-flex;
+    flex-direction: column;
 }
 
 /* IMAGENES */
@@ -57,6 +66,17 @@ img{
     width: 150px;
 }
 
+.imagen3>img{
+    width: 400px;
+}
+
+.imagen2-box{
+    display: flex;
+    justify-content: center;
+}
+.imagen2{
+    width:50%;
+}
 /* HEADINGS */
 
 h1{
@@ -145,9 +165,9 @@ article{
     margin: 3%;
 }
 
-#textos{
-    /* margin-top: 20px; */
-}
+/* #textos{
+    /* margin-top: 20px; 
+}*/
 
 .email{
     text-decoration: none;
@@ -196,7 +216,7 @@ td,th{
 table{
     width:90%;
     border-spacing: 20px 10px;
-    margin: 10px
+    margin: 10px 0 100px 0;
 }
 
 .date{
@@ -213,4 +233,142 @@ ol>li{
 ul>li{
     font-size: 1.6rem;
     margin-left: 10%;
+}
+
+/* Mapas */
+
+.maps{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.maps>div{
+    border: 1px solid black;
+    margin: 30px 3px 0px 3px;
+    padding: 10px;
+}
+
+td>a{
+    text-decoration: none;
+}
+
+.ajk{
+    color:teal;
+    background-color: khaki;
+}
+.mph{
+    color:darkblue;
+    background-color: salmon;
+}
+
+.nth{
+    color: orange;
+    background-color: darkslateblue;
+}
+
+.sth{
+    color:seashell;
+    background-color: darkred;
+}
+
+.hay{
+    color: violet;
+    background-color:darkslategray ;
+}
+.gby{
+    color:gold;
+    background-color:green ;
+}
+
+/*Formulario*/
+
+fieldset{
+    margin:20px 0;
+    padding: 10px;
+    border: 1px solid darkslateblue;
+}
+
+legend, label, option{
+    font-size: 2em;
+    vertical-align: baseline;
+}
+
+fieldset>p{
+    font-size: 1.8em;
+}
+
+.text-box{
+    width:10vw;
+    height: 3vh;
+    margin:0 15px 15px 15px;
+    font-size: 2vh;
+}
+
+.gender{
+    width:5vw;
+    height: 3vh;
+    margin-right: 8vw;
+    font-size: 2vh;
+    vertical-align: top;
+}
+
+.grade{
+    width:5vw;
+    height: 3vh;
+    margin-right: 2vw;
+    vertical-align: top;
+}
+
+.school{
+    width:5vw;
+    height: 3vh;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    vertical-align: top;
+}
+.closest{
+    font-size: 3vh;
+}
+
+.position{
+    width:5vw;
+    height: 3vh;
+    margin-right: 2vw;
+    vertical-align: top;
+}
+
+.uniform{
+    width:4vw;
+    height: 2vh;
+    margin-right: 1vw;
+    vertical-align: baseline;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.send-butt{
+    padding: 7px;
+    font-size: 2vh;
+    background-color:royalblue;
+    color: darkorange;
+}
+
+.reset-butt{
+    padding: 7px;
+    font-size: 2vh;
+    background-color:khaki;
+    color:seagreen;
+}
+
+
+@media screen {
+    
 }
